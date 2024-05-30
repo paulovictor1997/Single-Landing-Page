@@ -5,7 +5,7 @@
  - Font Awesome for the icons / Font Awesome para os icones
 
 ### Links
- - Live Site :[https://www.frontendmentor.io/profile/paulovictor1997](https://www.frontendmentor.io/profile/paulovictor1997) 
+ - Live Site :[https://paulovictor1997.github.io/Single-Landing-Page/](https://paulovictor1997.github.io/Single-Landing-Page/) 
  - Front end mentor profile : Front End Mentor Profile : [https://www.frontendmentor.io/profile/paulovictor1997](https://www.frontendmentor.io/profile/paulovictor1997) 
 
 ### Preview
