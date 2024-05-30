@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", "arial";
+}
+
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(../assets/images/bg-mobile.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  padding: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.container .image {
+  padding: 10px;
+}
+.container .image img {
+  width: 400px;
+}
+.container .content {
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+}
+.container .content .title {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Poppins";
+  color: hsl(0, 0%, 100%);
+}
+.container .content .description {
+  margin-top: 3%;
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+  font-weight: 400;
+}
+.container .content button {
+  margin-top: 6%;
+  width: 300px;
+  padding: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  color: hsl(257, 40%, 49%);
+  transition: 0.5s all;
+  border: none;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.541);
+}
+.container .content button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: hsl(0, 0%, 100%);
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 6%;
+}
+footer a {
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-left: 10px;
+  transition: 0.5s all;
+  color: hsl(0, 0%, 100%);
+}
+footer a:hover {
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+}
+
+@media (min-width: 900px) {
+  body {
+    background-image: url(../assets/images/bg-desktop.svg);
+    background-size: cover;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .container .image {
+    padding: 10px;
+  }
+  .container .image img {
+    width: 600px;
+  }
+  .container .content {
+    width: 500px;
+    text-align: left;
+  }
+  .container .content .title {
+    font-weight: bold;
+    font-size: 36px;
+  }
+  footer {
+    margin-top: 15%;
+    text-align: right;
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
